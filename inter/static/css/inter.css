@@ -1,0 +1,153 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  max-width: 50em;
+  margin: auto;
+  padding: 2em 1em;
+  background-color: darkgray;
+  background-image: url("https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/very_big_1/public/feature/images/adolescent.jpg?itok=aTwGYWz2");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right {
+  text-align: right;
+}
+nav a {
+  border: 1px solid black;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #eeeeee;
+}
+
+nav a:hover {
+  background-color: orange;
+  color: blue;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  background-color: orange;
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 0.25em;
+}
+
+h1 {
+  font: inherit;
+  color: inherit;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+h2 > a {
+  font-size: 0.75em;
+}
+
+input {
+  display: block;
+  margin: 5px 0 20px 0;
+  padding: 9px;
+  border: solid 1px black;
+  width: 300px;
+  background: whitesmoke;
+}
+
+input[type="submit"],
+a.delete {
+  width: auto;
+  padding: 9px 15px;
+  background-color: gray;
+  border: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+a.delete {
+  background-color: red;
+}
+
+.artist-photo {
+  width: 400px;
+}
+
+span.nationality {
+  font-size: 0.5em;
+}
+
+.user-info {
+  float: right;
+}
+
+a.fav {
+  text-decoration: none;
+  color: red;
+}
+
+a.no-fav {
+  text-decoration: none;
+  color: black;
+}
+
+.fav:visited,
+.no-fav:visited {
+  text-decoration: none;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+.detail {
+  text-align: center;
+}
+
+.block {
+  background-color: rgba(250, 255, 128, 0.4);
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}
+.view {
+  float: right;
+}
+.title {
+  text-align: center;
+}
+.name {
+  text-align: center;
+  font-size: 18px;
+}
+.genre {
+  font-size: 18px;
+}
+/* nav {
+  background-color: rgba(170, 255, 246, 1);
+  justify-content: space-around;
+}
+a:hover {
+  background-color: white;
+} */
+.video {
+  font-size: 24px;
+}
+.comment {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.vid {
+  background-color: rgba(1, 1, 1, 0.4);
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}

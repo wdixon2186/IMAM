@@ -1,0 +1,14 @@
+{% extends "inter/base.html" %} {% block content %}
+<h2>Scripts <a href="scripts/new">(+)</a></h2>
+{% for script in scripts %}
+<div class="block">
+  <a class="view" href="{% url 'script_detail' pk=script.pk %}"
+    >View comments:</a
+  >
+  <h3 class="title">{{script.title}}</h3>
+  <p class="name">{{script.name}}</p>
+  <p class="genre">{{script.genre}}</p>
+  <p>{{script.logline}}</p>
+  {% endfor %}
+</div>
+{% endblock %}
